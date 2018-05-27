@@ -1,0 +1,31 @@
+{
+  "name": "autogrow-textarea",
+  "version": "1.0.0",
+  "description": "Autogrow textarea extension",
+  "main": "dist/extension.js",
+  "esnext:main": "src/extension.ts",
+  "scripts": {
+    "watch": "./node_modules/.bin/webpack --watch --mode=development",
+    "build": "./node_modules/.bin/webpack --mode=production",
+    "develop": "webpack-dev-server --open --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "autogrow",
+    "textarea",
+    "extension"
+  ],
+  "author": "Vadim Liakhovich <v.liakhovich@yandex.ru> (https://github.com/vlyahovich)",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^4.3.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
