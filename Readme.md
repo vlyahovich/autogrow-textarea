@@ -1,6 +1,6 @@
 # Autogrow textarea plugin
 
-Vanilla js plugin for autogrow textarea.
+`npm i autogrow-textarea` vanilla js plugin for autogrow textarea.
 Already hooks up existing textareas on page with `data-autogrow` attibute.
 
 # Autogrow options
