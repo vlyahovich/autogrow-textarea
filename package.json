@@ -8,7 +8,8 @@
     "watch": "./node_modules/.bin/webpack --watch --mode=development",
     "build": "./node_modules/.bin/webpack --mode=production",
     "develop": "webpack-dev-server --open --mode=development",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "webpack-dev-server --mode=development",
+    "test": "mocha test/bootstrap.js --recursive test"
   },
   "keywords": [
     "autogrow",
@@ -18,9 +19,12 @@
   "author": "Vadim Liakhovich <v.liakhovich@yandex.ru> (https://github.com/vlyahovich)",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^4.1.2",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^0.28.11",
     "html-webpack-plugin": "^3.2.0",
+    "mocha": "^5.2.0",
+    "puppeteer": "^1.4.0",
     "style-loader": "^0.21.0",
     "ts-loader": "^4.3.0",
     "typescript": "^2.8.3",

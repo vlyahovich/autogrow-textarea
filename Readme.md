@@ -18,3 +18,7 @@ let textArea = new AutogrowTextarea(document.querySelector('.my-text-area'), {ma
 ```
 
 to destroy textArea call `textArea.destroy()`
+
+# Tests
+
+`npm run serve` to start server then `npm run test`
